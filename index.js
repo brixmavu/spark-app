@@ -1,8 +1,9 @@
 var express = require('express'),
-    exphbs = require('express-handlears'),
+    exphbs = require('express-handlebars'),
     mysql = require('mysql'),
     myConnection = require('express-myconnection'),
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser'),
+    home = require('./routes/home');
 
 
 var app = express();
@@ -39,7 +40,7 @@ function errorHandler(err, req, res, next) {
 }
 
 // setup handlers
-app.get('/', );
+app.get('/', home.home );
 
 app.use(errorHandler);
 

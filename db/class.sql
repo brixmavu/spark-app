@@ -1,9 +1,9 @@
-INSERT INTO class(class_name) VALUES('English');
-INSERT INTO class(class_name) VALUES('Mathematics');
-INSERT INTO class(class_name) VALUES('Accounting');
-INSERT INTO class(class_name) VALUES('Business Studies');
-INSERT INTO class(class_name) VALUES('Geography');
-INSERT INTO class(class_name) VALUES('History');
-INSERT INTO class(class_name) VALUES('Life Sciences');
-INSERT INTO class(class_name) VALUES('Physical Sciences');
-INSERT INTO class(class_name) VALUES('Information Technology');
+insert into class(class_name) values('English');
+insert into class(class_name) values('Mathematics');
+insert into class(class_name) values('Accounting');
+insert into class(class_name) values('Business Studies');
+insert into class(class_name) values('Geography');
+insert into class(class_name) values('History');
+insert into class(class_name) values('Life Sciences');
+insert into class(class_name) values('Physical Sciences');
+insert into class(class_name) values('Information Technology');
